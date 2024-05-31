@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "NfK6QJ/3dv5AU2Vu3zaGxuPlZS+joRbE9CbjfJmMTk+3y4zYt9Mx0pSYoKSnM0zImBHhOahaKkUREMK5Xfkckw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\PC\\ArenaGames\\ArenaGame\\ArenaGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  ArenaGame -> ArenaGame.",
+      "libraryId": "ArenaGame",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
